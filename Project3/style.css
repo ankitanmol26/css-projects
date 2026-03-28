@@ -1,0 +1,82 @@
+:root{
+    --bg:#9dc783;
+    --container:#fff;
+    --red:#d01010;
+    --dark-green:#0aae42;
+    --light-green:#1bff69;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg);
+}
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--container);
+    height: 700px;
+    width: 700px;
+    margin: 50px auto;
+    grid-template-areas: ;
+   
+} */
+/* .red_box{
+    
+    background-color:var(--red);
+    border: 2px solid black;
+    margin: 2px;
+} */
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    background-color: var(--container);
+}
+
+.top-container{
+    min-height: 600px;
+     margin-top: 32px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 16px;
+     padding: 16px;
+
+}
+
+
+.red_box{
+    background-color: var(--red);
+    height: 100%;
+    width: 100%;
+
+}
+.bottom-container{
+    min-height: 350px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: 1fr 68px;
+    gap: 16px;
+    padding: 16px;
+}
+.green-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+.dark-green-box{
+    background-color: var(--dark-green);
+    width: 100%;
+    min-height: 0;
+}
+.light-green-box{
+    background-color: var(--light-green);
+    min-height: 100%;
+}
+
